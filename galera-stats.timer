@@ -1,0 +1,11 @@
+[Unit]
+Description=Galera status logger
+
+[Timer]
+Persistent=false
+OnStartupSec=5min
+OnUnitActiveSec=1min
+AccuracySec=1us
+
+[Install]
+WantedBy=timers.target
