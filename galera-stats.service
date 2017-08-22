@@ -4,4 +4,4 @@ After=mariadb.service
 
 [Service]
 Type=oneshot
-ExecStart=/opt/galera-stats/stats.py --mysql-socket=/var/run/mysqld/mysqld.sock --redis-host=log0
+ExecStart=/opt/galera-stats/stats.py --mysql-socket=/var/run/mysqld/mysqld.sock --redis-host=log1
